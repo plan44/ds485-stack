@@ -1,32 +1,32 @@
 [submodule "ds485-client"]
 	path = ds485-client
-	url = ssh://plan44@plan44.ch/home/plan44/sharedgit/ds485-client.git
+	url = ../ds485-client.git
 	branch = main
 [submodule "ds485-core"]
 	path = ds485-core
-	url = ssh://plan44@plan44.ch/home/plan44/sharedgit/ds485-core.git
+	url = ../ds485-core.git
 	branch = main
 [submodule "ds485-netlib"]
 	path = ds485-netlib
-	url = ssh://plan44@plan44.ch/home/plan44/sharedgit/ds485-netlib.git
+	url = ../ds485-netlib.git
 	branch = main
 [submodule "ds485d"]
 	path = ds485d
-	url = ssh://plan44@plan44.ch/home/plan44/sharedgit/ds485d.git
+	url = ../ds485d.git
 	branch = main
 [submodule "ds485p"]
 	path = ds485p
-	url = ssh://plan44@plan44.ch/home/plan44/sharedgit/ds485p.git
+	url = ../ds485p.git
 	branch = main
 [submodule "dsdata"]
 	path = dsdata
-	url = ssh://plan44@plan44.ch/home/plan44/sharedgit/dsdata.git
+	url = ../dsdata.git
 	branch = main
 [submodule "libdsuid"]
 	path = libdsuid
-	url = ssh://plan44@plan44.ch/home/plan44/sharedgit/libdsuid.git
+	url = ../libdsuid.git
 	branch = main
 [submodule "dsm-api"]
 	path = dsm-api
-	url = ssh://plan44@plan44.ch/home/plan44/sharedgit/dsm-api.git
+	url = ../dsm-api.git
 	branch = main
