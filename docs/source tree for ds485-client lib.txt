@@ -1,0 +1,100 @@
+.
+├── ds485-client
+│   ├── AUTHORS
+│   ├── base
+│   │   ├── log.c
+│   │   ├── log.h
+│   │   ├── socket_client.c
+│   │   ├── socket_client.h
+│   │   ├── socket_send.c
+│   │   └── socket_send.h
+│   ├── build_cygwin.sh
+│   ├── ChangeLog
+│   ├── configure.ac
+│   ├── COPYING
+│   ├── COPYING.LESSER
+│   ├── include
+│   │   └── ds485-client-interface.h
+│   ├── libds485-client.pc.in
+│   ├── m4
+│   │   ├── ax_pthread.m4
+│   │   └── pkg.m4
+│   ├── Makefile.am
+│   ├── NEWS
+│   ├── README
+│   └── src
+│       ├── client-socket.c
+│       ├── ds485-client.c
+│       ├── ds485-client.h
+│       ├── shim.c
+│       ├── test.c
+│       ├── util.c
+│       ├── util.h
+│       └── waitqueue.c
+├── ds485-netlib
+│   ├── AUTHORS
+│   ├── base
+│   │   ├── ds_packet.c
+│   │   ├── ds_packet.h
+│   │   ├── ds_string.c
+│   │   ├── ds_string.h
+│   │   ├── log.c
+│   │   ├── log.h
+│   │   ├── Makefile.inc
+│   │   ├── socket_send.c
+│   │   ├── socket_send.h
+│   │   ├── socket_server.c
+│   │   ├── socket_server.h
+│   │   ├── util.c
+│   │   └── util.h
+│   ├── build_cygwin.sh
+│   ├── ChangeLog
+│   ├── configure.ac
+│   ├── COPYING
+│   ├── ds485-netlib.pc.in
+│   ├── include
+│   │   ├── ds485-socket-interface.h
+│   │   ├── ds485-socket-server.h
+│   │   └── ds485n-packet.h
+│   ├── m4
+│   │   ├── ax_pthread.m4
+│   │   ├── pkg.m4
+│   │   └── visibility.m4
+│   ├── Makefile.am
+│   ├── NEWS
+│   ├── README
+│   ├── src
+│   │   ├── ds485-socket-server-clients.c
+│   │   ├── ds485-socket-server-impl.h
+│   │   ├── ds485-socket-server-serve.c
+│   │   ├── init.c
+│   │   ├── Makefile.inc
+│   │   ├── netlib_protocol_v1.c
+│   │   ├── tlv_packets.c
+│   │   ├── tlv_packets.h
+│   │   ├── watchdog.c
+│   │   └── watchdog.h
+└── libdsuid
+    ├── AUTHORS
+    ├── build_cygwin.bat
+    ├── build_cygwin.sh
+    ├── ChangeLog
+    ├── CMakeLists.txt
+    ├── configure.ac
+    ├── COPYING
+    ├── libdsuid.pc.in
+    ├── m4
+    │   └── pkg.m4
+    ├── Makefile.am
+    ├── NEWS
+    ├── README
+    ├── src
+    │   ├── dsuid.c
+    │   ├── dsuid.h
+    │   └── Makefile.am
+    └── tests
+        ├── dsuid_libtest.c
+        ├── dsuid_manipulate.c
+        └── Makefile.am
+
+73 directories, 359 files
