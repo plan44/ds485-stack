@@ -18,10 +18,6 @@
 	path = ds485p
 	url = ../ds485p.git
 	branch = main
-[submodule "dsdata"]
-	path = dsdata
-	url = ../dsdata.git
-	branch = main
 [submodule "libdsuid"]
 	path = libdsuid
 	url = ../libdsuid.git
@@ -29,4 +25,10 @@
 [submodule "dsm-api"]
 	path = dsm-api
 	url = ../dsm-api.git
+	branch = main
+[submodule "dsdata"]
+	update = none
+	ignore = all
+	path = dsdata
+	url = ../dsdata.git
 	branch = main
